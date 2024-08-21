@@ -92,3 +92,28 @@ p{
 .botao-fujao button:hover{
     transform: scale(1.1);
 }
+/* Ajustando site para o celular */
+@media (min-width: 480px) {
+    #title-proj{
+        font-size: 30px;
+    }
+#descr{
+    font-size: 18px;
+}
+.container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+} 
+    .container h2{
+        font-size: 30px;
+    }
+    .container img{
+        width: 300px;
+    }
+    .botao-fujao h2{
+        text-align: center;
+    }
+}
